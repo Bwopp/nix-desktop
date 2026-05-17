@@ -220,6 +220,11 @@ in
     inputs.helium.packages.${system}.default
     lact
     protontricks
+    spotdl
+    picard
+    media-downloader
+    feishin
+    libreoffice-qt
   ];
 
   # File Sharing
@@ -239,6 +244,10 @@ in
     enable = true;
     enable32Bit = true;
   };
+
+  # Warp
+  services.cloudflare-warp.enable = true;
+  services.cloudflare-warp.openFirewall = true;
 
   hardware.amdgpu.opencl.enable = true;
   systemd.packages = with pkgs; [ lact ];
