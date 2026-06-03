@@ -27,6 +27,12 @@ in
           ./bootloader/nix.png
         ];
       };
+
+    extraEntries = ''
+      /Windows
+        protocol: efi
+        path: uuid(fdfecdc9-7a11-4268-8bbf-7c9b3b919399):/EFI/Microsoft/Boot/bootmgfw.efi
+    '';
     };
   };
   # Use latest kernel.
@@ -225,6 +231,7 @@ in
     media-downloader
     feishin
     libreoffice-qt
+    vscode
   ];
 
   # File Sharing
