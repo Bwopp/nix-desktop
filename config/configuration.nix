@@ -223,7 +223,6 @@ in
     handbrake
     koodo-reader
     balatro-mod-manager
-    inputs.helium.packages.${system}.default
     lact
     protontricks
     spotdl
