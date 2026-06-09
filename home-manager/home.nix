@@ -22,7 +22,7 @@
           # ./alacritty.nix
           # ./noctalia-shell.nix
           # ./niri.nix
-          ./vscode.nix
+          ./codium.nix
           ./floorp.nix
         ];
       };

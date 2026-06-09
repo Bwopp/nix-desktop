@@ -231,6 +231,7 @@ in
     feishin
     libreoffice-qt
     vscode
+    ollama-rocm
   ];
 
   # File Sharing
