@@ -7,6 +7,7 @@
       bbenoist.nix
       ms-python.python
       rust-lang.rust-analyzer
+      auricvex.flake-env
     ];
   };
 }
