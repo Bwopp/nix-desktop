@@ -197,7 +197,7 @@ in
     prismlauncher
     obsidian
     spotify
-    git
+    gitFull
     btop
     alacritty
     gparted
@@ -230,7 +230,6 @@ in
     media-downloader
     feishin
     libreoffice-qt
-    vscode
     ollama-rocm
   ];
 
