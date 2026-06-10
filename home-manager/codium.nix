@@ -17,6 +17,8 @@ in
         "workbench.colorTheme" = "Tokyo Night";
         "git.confirmSync" = false;
         "git.enableSmartCommit" = true;
+        "python.defaultInterpreterPath" = "python";
+        "python.locator" = "native";
       };
     };
   };
