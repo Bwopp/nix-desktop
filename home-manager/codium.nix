@@ -1,4 +1,7 @@
 { config, pkgs, inputs, ... }:
+let
+  vscodeExts = inputs.nix-vscode-extensions.extensions.${pkgs.system};
+in
 {
   programs.vscodium = {
     enable = true;
@@ -8,7 +11,7 @@
         bbenoist.nix
         ms-python.python
         rust-lang.rust-analyzer
-        arrterian.nix-env-selector
+        vscodeExts.open-vsx.auricvex.flake-env
       ];
       userSettings = {
         "workbench.colorTheme" = "Tokyo Night";
