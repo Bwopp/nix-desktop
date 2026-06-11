@@ -45,6 +45,7 @@ in
             "browser.newtabpage.activity-stream.showSponsored" = false;
             "extensions.formautofill.creditCards.enabled" = false;
             "toolkit.legacyUserProfileCustomizations.stylesheets" = true;
+            "userChrome.compatibility.theme" = false;
           }
         );
         extraPolicies = {
